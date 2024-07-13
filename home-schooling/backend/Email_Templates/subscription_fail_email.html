@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Inline CSS Styles */
+        body {
+            font-family: 'Montserrat';
+            background-color: #F5F5F5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #173175;
+            padding: 20px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .content {
+          
+            padding: 20px;
+            color: black;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 60%;
+            height: fit-content;
+            padding: 6px 5px;
+            border-radius: 4px;
+            margin-right: 10px;
+            border: 1px solid #DDDDDD;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .button_link {
+           width: 100%;
+         
+        }
+
+        .button {
+       margin: auto;
+            background-color: #173175;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white !important;
+            border-radius: 4px;
+            align-items: center;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .footer {
+            background-color: #F5F5F5;
+            padding: 20px;
+            text-align: center;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        .form {
+            width: 100%;
+        }
+
+        .form_input {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            background-color:#173175;
+            padding: 20px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .title_main {
+            font-weight: bold
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HI</h1>
+        </div>
+        <div class="content">
+       
+            <h1>Hi {{user_name}}</h1>
+          
+<p>
+               
+
+We hope this message finds you well.
+
+We regret to inform you that there was an issue processing your recent payment, and it has failed to go through successfully. It is essential for us to address this matter promptly to avoid any disruption to your services.
+
+
+</p>
+<p>
+To resolve this issue, we kindly request that you update your account details as soon as possible. 
+</p>
+
+<p>
+
+
+Ensuring the accuracy of your account information will enable us to process your payment smoothly and prevent any further interruptions to your services.
+</p>
+
+
+Thank you for your prompt attention to this matter. We appreciate your cooperation and apologize for any inconvenience caused.
+                .</p>
+
+            <p style="margin-bottom: 0px; margin-top: 50px;">Best regards,</p>
+            <p style="margin-top: 2px;">The {{website_name}} Team</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 {{website_name}} All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>

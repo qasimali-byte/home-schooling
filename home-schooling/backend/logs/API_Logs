@@ -1,0 +1,41 @@
+2024-02-12 17:32:20 | INFO     | Connected to the database
+2024-02-12 17:32:21 | SUCCESS  | === POST User login API ===
+2024-02-12 17:32:22 | INFO     | User logged in with email : junaiddaud767@gmail.com 
+2024-02-12 17:32:41 | INFO     | Connected to the database
+2024-02-12 17:32:42 | SUCCESS  | === GET Plans API ===
+2024-02-12 17:32:42 | INFO     | Successfully fetched plans : {'id': 1, 'duration': '30', 'price': 12.99, 'isActive': 1, 'date_created': datetime.date(2023, 12, 21), 'name': 'Basic Package', 'extra_data': '{"features": ["Online Dashboard", "AI-driven reporting", "Export to PDF or DOC"]}'}
+2024-02-12 17:32:42 | INFO     | Connection closed
+2024-02-12 17:33:06 | INFO     | Connected to the database
+2024-02-12 17:33:07 | SUCCESS  | === GET view subjects API ===
+2024-02-12 17:33:08 | INFO     | Successfully fetched subjects for report 18 : [{'id': 1, 'name': 'English'}, {'id': 2, 'name': 'Mathematics'}]
+2024-02-12 17:33:08 | INFO     | Connection closed
+2024-02-12 17:33:11 | INFO     | Connected to the database
+2024-02-12 17:33:11 | SUCCESS  | === GET states API ===
+2024-02-12 17:33:11 | INFO     | Successfully fetched states : [{'id': 1, 'name': 'New South Wales', 'check_semester': 0}, {'id': 2, 'name': 'Queensland', 'check_semester': 0}, {'id': 3, 'name': 'South Australia', 'check_semester': 0}, {'id': 4, 'name': 'Tasmania', 'check_semester': 0}, {'id': 5, 'name': 'Victoria', 'check_semester': 0}, {'id': 6, 'name': 'Western Australia', 'check_semester': 1}]
+2024-02-12 17:33:12 | INFO     | Connection closed
+2024-02-12 18:22:43 | INFO     | Connected to the database
+2024-02-12 18:22:43 | SUCCESS  | === POST User login API ===
+2024-02-12 18:22:44 | INFO     | User logged in with email : junaiddaud767@gmail.com 
+2024-02-12 18:23:02 | INFO     | Connected to the database
+2024-02-12 18:23:02 | SUCCESS  | === GET reports API ===
+2024-02-12 18:23:03 | INFO     | Successfully fetched reports : {'id': 41, 'name': 'new', 'school_year': 'Year 1', 'create_date': datetime.date(2024, 2, 5), 'last_edited': datetime.date(2024, 2, 6), 'follow_term': 0, 'child_id': 15, 'child_name': 'Test  Case 1', 'state_name': 'Tasmania'}
+2024-02-12 18:23:03 | INFO     | Successfully fetched reports count : 6
+2024-02-12 18:23:04 | INFO     | Connection closed
+2024-02-12 18:24:26 | INFO     | Connected to the database
+2024-02-12 18:24:27 | SUCCESS  | === GET reports API ===
+2024-02-12 18:24:28 | ERROR    | Error getting reports : list index out of range
+2024-02-12 18:25:05 | INFO     | Connected to the database
+2024-02-12 18:25:06 | SUCCESS  | === GET reports API ===
+2024-02-12 18:25:07 | ERROR    | Error getting reports : list index out of range
+2024-02-12 18:25:29 | INFO     | Connected to the database
+2024-02-12 18:25:29 | SUCCESS  | === GET reports API ===
+2024-02-12 18:25:30 | ERROR    | Error getting reports : list index out of range
+2024-02-12 18:25:45 | INFO     | Connected to the database
+2024-02-12 18:25:46 | SUCCESS  | === GET reports API ===
+2024-02-12 18:25:47 | ERROR    | Error getting reports : list index out of range
+2024-02-12 18:26:15 | INFO     | Connected to the database
+2024-02-12 18:26:16 | SUCCESS  | === GET reports API ===
+2024-02-12 18:26:17 | ERROR    | Error getting reports : list index out of range
+2024-02-12 18:29:26 | INFO     | Connected to the database
+2024-02-12 18:29:26 | SUCCESS  | === GET reports API ===
+2024-02-12 18:29:27 | INFO     | Successfully fetched. No reports found.

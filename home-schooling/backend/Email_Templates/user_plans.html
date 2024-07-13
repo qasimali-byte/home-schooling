@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Inline CSS Styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #173175;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .content {
+            padding: 20px;
+            color: #333;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #173175;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 60%;
+            height: fit-content;
+            padding: 6px 5px;
+            border-radius: 4px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .button_link {
+            width: 100%;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #ff4545;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff !important;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .footer {
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        .form {
+            width: 100%;
+        }
+
+        .form_input {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            background-color: #173175;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .title_main {
+            font-weight: bold;
+            color: #173175;
+        }
+        table {
+    width: 300px; /* Set a width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-bottom: 20px; /* Add some margin for spacing */
+  }
+
+  th, td {
+    border: 1px solid #dddddd; /* Add borders to cells */
+    padding: 8px; /* Add padding to cells */
+    text-align: left; /* Align text to the left */
+  }
+
+  th {
+    background-color: #f2f2f2; /* Add a background color to header cells */
+  }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="color: white;">Invoice Details</h1>
+        </div>
+        <div class="content">
+            <p class="title_main">Dear valued customer,</p>
+            <p>Thank you for choosing our services. Below is the invoice details for your recent subscription:</p>
+<table>
+            <tr>
+                <th>Email:</th>
+                <td>{{email}}</td>
+              </tr>
+              <tr>
+                <th>Plan Name:</th>
+                <td>{{p_name}}</td>
+              </tr>
+              <tr>
+                <th>Plan Duration:</th>
+                <td>{{p_duration}} days</td>
+              </tr>
+              <tr>
+                <th>Plan Price:</th>
+                <td>${{p_price}}</td>
+              </tr>
+            </table>
+
+            <p>If you have any questions or concerns, feel free to reach out to us. Your satisfaction is our priority.</p>
+
+            <p>Best regards,<br>The {{website_name}} Team</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 {{website_name}}. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>

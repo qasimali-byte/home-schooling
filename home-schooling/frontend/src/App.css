@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@200&family=Playfair+Display&family=Raleway&display=swap');
+:root {
+  --primary: #001C68;
+  --hover: #77b573;
+  --secondary: #ffffff;
+  --bg-color: #fbf9f4;
+  --disabled-button: #f15778;
+  --btn-primary:#ff4545;
+}
+/* to remove input number arrow keys
+Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* body{
+  background-color: rgb(243 244 246);
+ 
+} */
+body{
+  font-family: 'Josefin Sans';
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #001C68!important;
+}
